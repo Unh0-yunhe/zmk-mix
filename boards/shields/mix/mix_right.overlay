@@ -120,7 +120,7 @@
         status = "okay";
         dr-gpios = <&gpio1 04 (GPIO_ACTIVE_HIGH)>;
 
-        sensitivity = "1x";
+        sensitivity = "4x";
         sleep;
         // no-taps;
     };
@@ -132,7 +132,7 @@
         device = <&glidepoint>;
         input-processors = 
         <&zip_xy_transform (INPUT_TRANSFORM_Y_INVERT)>,
-        <&zip_xy_scaler 3 1>;
+        <&zip_xy_scaler 3 2>;
     };
           scroller {
         //layers = <SCROLL>;
