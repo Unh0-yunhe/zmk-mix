@@ -141,7 +141,7 @@ layers:
   - '&msc SCRL_UP'
   - UP ARROW
   - '&msc SCRL_DOWN'
-  - {t: ▽, type: trans}
+  - INSERT
   - '|'
   - {type: held}
   - PREVIOUS
@@ -153,7 +153,7 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT
-  - ':'
+  - END
   - '"'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,7 +165,7 @@ layers:
   - {t: ▽, type: trans}
   - <
   - '>'
-  - '?'
+  - HOME
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
