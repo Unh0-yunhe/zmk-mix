@@ -6,16 +6,22 @@ config ZMK_KEYBOARD_NAME
 config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
-config ZMK_POINTING
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_FETCHING
     default y
 
-config SPI
+config ZMK_SPLIT_BLE_CENTRAL_BATTERY_LEVEL_PROXY
     default y
 
 
 endif
 
 if SHIELD_MIX_LEFT || SHIELD_MIX_RIGHT
+
+config ZMK_POINTING
+    default y
+
+config SPI
+    default y
 
 config ZMK_SPLIT
     default y
