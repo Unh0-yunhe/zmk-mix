@@ -139,7 +139,7 @@ layers:
   - _
   - +
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - UP ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '|'
@@ -150,9 +150,9 @@ layers:
   - PAGE DOWN
   - '{'
   - '}'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT
   - ':'
   - '"'
   - {t: ▽, type: trans}
