@@ -216,9 +216,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp RCLK'
-  - '&msc SCRL_UP'
-  - {t: ▽, type: trans}
-  - '&msc SCRL_DOWN'
+  - '&mkp MB4'
+  - AC REFRESH
+  - '&mkp MB5'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
