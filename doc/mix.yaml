@@ -51,7 +51,7 @@ layers:
   - RSHFT
   - LCTRL
   - lower
-  - {t: LEFT WIN, h: RIGHT ALT}
+  - LEFT WIN
   - SPACE
   - '3'
   - '&mkp RCLK'
@@ -193,7 +193,7 @@ layers:
   - BT CLR ALL
   - '&mkp MCLK'
   - '&msc SCRL_UP'
-  - '&mmv MOVE_Y(200)'
+  - '&mmv MOVE_Y(-600)'
   - '&msc SCRL_DOWN'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -204,9 +204,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '&mkp LCLK'
-  - '&mmv MOVE_X(-200)'
-  - '&mmv MOVE_Y(-200)'
-  - '&mmv MOVE_X(200)'
+  - '&mmv MOVE_X(-600)'
+  - '&mmv MOVE_Y(600)'
+  - '&mmv MOVE_X(600)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
