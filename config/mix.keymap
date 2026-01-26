@@ -52,11 +52,11 @@
 
         raise_layer {
             bindings = <
-&kp F12  &kp F1          &kp F2             &kp F3                    &kp F4         &kp F5          &kp F6           &kp F7  &kp F8         &kp F9            &kp F10       &kp F11
-&trans   &kp C_BRI_DEC   &kp C_VOLUME_UP    &kp LS(C_BRIGHTNESS_INC)  &kp PAGE_UP    &kp UNDERSCORE  &kp PLUS         &trans  &trans         &trans            &trans        &kp PIPE
-&trans   &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_NEXT                &kp PAGE_DOWN  &kp LEFT_BRACE  &kp RIGHT_BRACE  &trans  &trans         &trans            &kp COLON     &kp DOUBLE_QUOTES
-&trans   &trans          &trans             &trans                    &trans         &trans          &trans           &trans  &kp LESS_THAN  &kp GREATER_THAN  &kp QUESTION  &trans
-&trans   &trans                             &trans                    &trans         &trans          &trans           &trans  &trans                           &trans        &trans
+&kp F12  &kp F1          &kp F2             &kp F3                    &kp F4         &kp F5          &kp F6           &kp F7          &kp F8          &kp F9            &kp F10       &kp F11
+&trans   &kp C_BRI_DEC   &kp C_VOLUME_UP    &kp LS(C_BRIGHTNESS_INC)  &kp PAGE_UP    &kp UNDERSCORE  &kp PLUS         &trans          &kp UP_ARROW    &trans            &trans        &kp PIPE
+&trans   &kp C_PREVIOUS  &kp C_VOLUME_DOWN  &kp C_NEXT                &kp PAGE_DOWN  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT         &kp COLON     &kp DOUBLE_QUOTES
+&trans   &trans          &trans             &trans                    &trans         &trans          &trans           &trans          &kp LESS_THAN   &kp GREATER_THAN  &kp QUESTION  &trans
+&trans   &trans                             &trans                    &trans         &trans          &trans           &trans          &trans                            &trans        &trans
             >;
 
             sensor-bindings =
