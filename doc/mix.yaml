@@ -36,7 +36,7 @@ layers:
   - K
   - L
   - ENTER
-  - Ctl+Z
+  - {t: Sft+', h: ''''}
   - LSHFT
   - Z
   - X
@@ -58,7 +58,7 @@ layers:
   - {t: ;, h: lower}
   - LEFT GUI
   - {t: SPACE, h: '3'}
-  - SLEEP
+  - Ctl+Z
   lower:
   - '`'
   - F1
