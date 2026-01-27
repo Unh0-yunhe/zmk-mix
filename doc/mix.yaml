@@ -24,7 +24,7 @@ layers:
   - I
   - O
   - P
-  - {t: Sft+', h: ''''}
+  - '&studio_unlock'
   - raise
   - A
   - S
@@ -35,8 +35,8 @@ layers:
   - J
   - K
   - L
-  - BACKSPACE
   - ENTER
+  - RIGHT SHIFT
   - LSHFT
   - Z
   - X
@@ -48,17 +48,17 @@ layers:
   - ','
   - .
   - /
-  - RSHFT
+  - RCTRL
   - LCTRL
   - lower
   - {t: LEFT WIN, h: LEFT ALT}
   - SPACE
   - '3'
-  - '&mkp RCLK'
+  - BACKSPACE
   - {t: ;, h: lower}
-  - RALT
+  - LEFT GUI
   - {t: SPACE, h: '3'}
-  - RIGHT WIN
+  - POWER
   lower:
   - '`'
   - F1
@@ -74,9 +74,9 @@ layers:
   - F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '?'
-  - (
-  - )
+  - PG UP
+  - UP ARROW
+  - PAGE DOWN
   - '-'
   - +
   - '1'
@@ -85,11 +85,11 @@ layers:
   - BACKSPACE
   - F12
   - {t: ▽, type: trans}
-  - '!'
-  - Sft+6
-  - \
-  - Sft+,
-  - Sft+.
+  - END
+  - LEFT
+  - DOWN
+  - RIGHT
+  - {t: ▽, type: trans}
   - .
   - '4'
   - '5'
@@ -97,10 +97,10 @@ layers:
   - '0'
   - DELETE
   - {t: ▽, type: trans}
+  - HOME
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - ''''
-  - Sft+-
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - '='
   - '7'
@@ -231,6 +231,65 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  '4':
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
