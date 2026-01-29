@@ -23,7 +23,7 @@ layers:
   - U
   - I
   - O
-  - P
+  - ENTER
   - '&start'
   - raise
   - A
@@ -35,7 +35,7 @@ layers:
   - J
   - K
   - L
-  - ENTER
+  - P
   - {t: Sft+', h: ''''}
   - LSHFT
   - Z
