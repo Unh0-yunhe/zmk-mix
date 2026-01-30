@@ -95,12 +95,12 @@
 &trans          &mkp MCLK     &msc SCRL_UP       &mmv MOVE_Y(-600)  &msc SCRL_DOWN    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &mkp LCLK     &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans          &mkp RCLK     &mkp MB4           &kp C_AC_REFRESH   &mkp MB5          &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans          &trans                           &trans             &trans            &trans  &trans  &trans  &trans          &trans  &trans
+&trans          &trans                           &kp LEFT           &kp RIGHT         &trans  &trans  &trans  &trans          &trans  &trans
             >;
 
             sensor-bindings =
                 <&inc_dec_kp C_BRIGHTNESS_INC C_BRIGHTNESS_DEC>,
-                <&inc_dec_kp UP_ARROW DOWN_ARROW>;
+                <&inc_dec_kp LEFT RIGHT>;
         };
     };
 };
