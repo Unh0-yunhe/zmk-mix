@@ -53,7 +53,7 @@ layers:
   - lower
   - {t: LEFT WIN, h: LEFT ALT}
   - SPACE
-  - '3'
+  - {t: BACKSPACE, h: '3'}
   - BACKSPACE
   - {t: ;, h: lower}
   - LEFT GUI
