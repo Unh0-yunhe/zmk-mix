@@ -51,12 +51,12 @@ layers:
   - RCTRL
   - LCTRL
   - {t: PLAY PAUSE, h: lower}
-  - LEFT GUI
+  - {t: LEFT GUI, h: LEFT ALT}
   - SPACE
   - {t: BACKSPACE, h: '3'}
   - BACKSPACE
   - {t: ;, h: lower}
-  - LEFT ALT
+  - LEFT GUI
   - {t: '4', h: toggle}
   - Ctl+Z
   lower:
