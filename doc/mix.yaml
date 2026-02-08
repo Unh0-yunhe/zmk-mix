@@ -294,7 +294,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: default, h: toggle}
-  - {t: default, h: toggle, type: held}
+  - {type: held}
 combos:
 - p: [0, 52, 53, 11]
   k: '&bootloader'
