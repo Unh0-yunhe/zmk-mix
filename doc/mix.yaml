@@ -23,9 +23,9 @@ layers:
   - U
   - I
   - O
-  - {t: Sft+', h: ''''}
+  - /
   - \
-  - raise
+  - LEFT SHIFT
   - A
   - S
   - D
@@ -36,8 +36,8 @@ layers:
   - K
   - L
   - P
-  - ENTER
-  - LSHFT
+  - {t: ENTER, h: raise}
+  - LEFT CONTROL
   - Z
   - X
   - C
@@ -47,9 +47,9 @@ layers:
   - M
   - ','
   - .
-  - /
+  - {t: Sft+', h: ''''}
   - RCTRL
-  - LCTRL
+  - {t: Ctl+Z, h: raise}
   - {t: PLAY PAUSE, h: lower}
   - {t: LEFT GUI, h: LEFT ALT}
   - SPACE
@@ -74,9 +74,9 @@ layers:
   - F11
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - PG UP
+  - Ctl+LEFT ARROW
   - UP ARROW
-  - PAGE DOWN
+  - Ctl+RIGHT ARROW
   - '-'
   - '='
   - '1'
@@ -85,7 +85,7 @@ layers:
   - BACKSPACE
   - F12
   - {t: ▽, type: trans}
-  - END
+  - HOME
   - LEFT
   - DOWN
   - RIGHT
@@ -97,10 +97,10 @@ layers:
   - '0'
   - DELETE
   - {t: ▽, type: trans}
-  - HOME
+  - END
+  - Sft+Ctl+LEFT ARROW
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - Ctl+Sft+RIGHT
   - {t: ▽, type: trans}
   - '-'
   - '7'
@@ -138,12 +138,12 @@ layers:
   - PAGE UP
   - '['
   - ']'
-  - PG UP
+  - Ctl+LEFT ARROW
   - UP ARROW
-  - PG DN
+  - Ctl+RIGHT ARROW
   - INSERT
   - F12
-  - {type: held}
+  - {t: ▽, type: trans}
   - PREVIOUS
   - VOLUME DOWN
   - NEXT
@@ -153,19 +153,19 @@ layers:
   - LEFT ARROW
   - DOWN ARROW
   - RIGHT
-  - END
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - PREVIOUS
-  - MUTE
-  - NEXT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - HOME
+  - {type: held}
+  - {t: ▽, type: trans}
+  - Ctl+PAGE UP
+  - MUTE
+  - Ctl+PAGE DOWN
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Sft+Ctl+LEFT ARROW
+  - {t: ▽, type: trans}
+  - Ctl+Sft+RIGHT ARROW
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,8 +173,8 @@ layers:
   - PLAY PAUSE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - HOME
+  - END
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   '3':
