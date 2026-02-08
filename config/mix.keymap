@@ -95,7 +95,7 @@
 &trans  &trans  &trans  &trans  &trans  &trans  &mkp MB4   &mkp MB5      &msc SCRL_DOWN  &trans        &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans        &trans          &kp UP_ARROW  &trans     &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans     &trans        &kp LEFT        &kp DOWN      &sk RIGHT  &trans
-&trans  &trans          &trans  &trans  &trans  &mkp LCLK  &trans        &trans                        &to 0      &to 0
+&trans  &trans          &trans  &trans  &trans  &mkp LCLK  &trans        &trans                        &to 0      &trans
             >;
 
             sensor-bindings =
