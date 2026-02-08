@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: mix}
 layers:
-  LAYER0:
+  Defualt:
   - ESCAPE
   - '1'
   - '2'
@@ -53,15 +53,15 @@ layers:
   - MUTE
   - SPACE
   - LGUI
-  - LAYER1
+  - layer 1
   - SPACE
   - SPACE
-  - LAYER2
+  - layer 2
   - RALT
   - SPACE
-  - {t: SPACE, h: LAYER3}
+  - {t: SPACE, h: Buleth}
   - ENTER
-  LAYER1:
+  layer 1:
   - F12
   - F1
   - F2
@@ -122,7 +122,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  LAYER2:
+  layer 2:
   - {t: ▽, type: trans}
   - '!'
   - '@'
@@ -183,7 +183,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  LAYER3:
+  Buleth:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
