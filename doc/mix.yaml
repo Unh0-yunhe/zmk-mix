@@ -58,7 +58,7 @@ layers:
   - {t: ;, h: lower}
   - LEFT GUI
   - {t: '4', h: toggle}
-  - Ctl+Z
+  - {t: Ctl+Z, h: '4'}
   lower:
   - '`'
   - F1
@@ -294,7 +294,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: default, h: toggle}
-  - {t: default, h: toggle}
+  - {t: default, h: toggle, type: held}
 combos:
 - p: [0, 52, 53, 11]
   k: '&bootloader'

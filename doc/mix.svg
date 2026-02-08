@@ -384,7 +384,9 @@ path.combo {
 <g transform="translate(847, 266)" class="key keypos-57">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Ctl+Z</text>
-</g>
+<a href="#x_x">
+<text x="0" y="24" class="key hold layer-activator">4</text>
+</a></g>
 <g class="combo combopos-0">
 <path d="M441,163 l-395,-116" class="combo"/>
 <path d="M441,163 l-52,100" class="combo"/>
@@ -1452,11 +1454,11 @@ path.combo {
 <text x="0" y="0" class="key tap layer-activator">default</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
-<g transform="translate(847, 266)" class="key keypos-57">
-<rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
+<g transform="translate(847, 266)" class="key held keypos-57">
+<rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key held"/>
 <a href="#default">
-<text x="0" y="0" class="key tap layer-activator">default</text>
-</a><text x="0" y="24" class="key hold">toggle</text>
+<text x="0" y="0" class="key held tap layer-activator">default</text>
+</a><text x="0" y="24" class="key held hold">toggle</text>
 </g>
 <g class="combo combopos-0">
 <path d="M441,163 l-395,-116" class="combo"/>
