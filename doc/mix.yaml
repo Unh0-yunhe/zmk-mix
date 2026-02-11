@@ -49,16 +49,16 @@ layers:
   - .
   - {t: Sft+', h: ''''}
   - RCTRL
-  - {t: PRINTSCREEN, h: raise}
+  - {t: Sft+Gui+S, h: raise}
   - {t: PLAY PAUSE, h: lower}
-  - {t: LEFT GUI, h: LEFT GUI}
-  - {t: Alt+Ctl+TAB, h: '3'}
+  - LEFT GUI
   - SPACE
+  - {t: Ctl+Alt+TAB, h: '3'}
   - BACKSPACE
   - {t: ;, h: lower}
   - {t: Ctl+Z, h: LEFT ALT}
   - {t: '4', h: toggle}
-  - RCTRL
+  - {t: '4', h: toggle}
   lower:
   - '`'
   - F1
@@ -229,8 +229,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LEFT
-  - {t: RIGHT, type: held}
-  - {t: ▽, type: trans}
+  - RIGHT
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
