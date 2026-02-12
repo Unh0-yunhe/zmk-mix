@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BACKSPACE
+  - DELETE
   - TAB
   - Q
   - W
@@ -49,7 +49,7 @@ layers:
   - .
   - {t: Sft+', h: ''''}
   - RCTRL
-  - {t: Sft+Gui+S, h: raise}
+  - {t: Gui+Sft+S, h: raise}
   - {t: PLAY PAUSE, h: lower}
   - LEFT GUI
   - SPACE
@@ -58,7 +58,7 @@ layers:
   - {t: ;, h: lower}
   - {t: Ctl+Z, h: LEFT ALT}
   - {t: '4', h: toggle}
-  - {t: '4', h: toggle}
+  - Ctl+Z
   lower:
   - '`'
   - F1
