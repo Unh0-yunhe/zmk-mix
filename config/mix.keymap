@@ -19,6 +19,16 @@
             bindings = <&bootloader>;
             key-positions = <0 52 53 11>;
         };
+
+        layer4 {
+            bindings = <&to 4>;
+            key-positions = <48 57>;
+        };
+
+        layer0 {
+            bindings = <&to 0>;
+            key-positions = <48 57>;
+        };
     };
 
     macros {
@@ -91,11 +101,11 @@
 
         layer_4 {
             bindings = <
-&kp ESCAPE             &mt F1 NUMBER_1  &mt F2 NUMBER_2  &mt F3 NUMBER_3          &mt F4 NUMBER_4  &mt F5 N5      &mkp RCLK  &msc SCRL_UP     &msc SCRL_DOWN  &mkp MCLK  &mkp MB5   &kp ESCAPE
-&kp TAB                &kp Q            &kp W            &kp E                    &kp R            &kp T          &kp Y      &kp U            &kp I           &kp O      &mkp MB4   &kp LEFT_GUI
-&lt 2 LEFT_SHIFT       &kp A            &kp S            &kp D                    &kp F            &kp G          &kp H      &kp J            &kp K           &kp L      &kp P      &kp ENTER
-&kp LEFT_CONTROL       &kp Z            &kp X            &kp C                    &kp V            &kp B          &kp N      &kp M            &kp LEFT        &kp DOWN   &sk RIGHT  &kp UP_ARROW
-&mt C_PREVIOUS C_NEXT  &kp LEFT_GUI                      &mt LEFT_GUI LA(ESCAPE)  &kp SPACE        &kp BACKSPACE  &mkp LCLK  &lt 1 SEMICOLON  &kp BACKSPACE              &to 0      &kp LEFT_CONTROL
+&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3             &kp NUMBER_4  &kp N5         &mkp RCLK  &msc SCRL_UP     &msc SCRL_DOWN  &mkp MCLK  &mkp MB5   &kp ESCAPE
+&kp TAB           &kp Q         &kp W         &kp E                    &kp R         &kp T          &kp Y      &kp U            &kp I           &kp O      &mkp MB4   &kp LEFT_GUI
+&kp LEFT_SHIFT    &kp A         &kp S         &kp D                    &kp F         &kp G          &kp H      &kp J            &kp K           &kp L      &kp P      &kp ENTER
+&kp LEFT_CONTROL  &kp Z         &kp X         &kp C                    &kp V         &kp B          &kp N      &kp M            &kp LEFT        &kp DOWN   &sk RIGHT  &kp UP_ARROW
+&lt 2 C_NEXT      &kp LEFT_GUI                &mt LEFT_GUI LA(ESCAPE)  &kp SPACE     &kp BACKSPACE  &mkp LCLK  &lt 1 SEMICOLON  &kp BACKSPACE              &to 0      &kp LEFT_CONTROL
             >;
 
             sensor-bindings =
