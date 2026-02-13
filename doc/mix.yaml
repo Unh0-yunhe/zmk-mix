@@ -238,11 +238,11 @@ layers:
   - {t: ▽, type: trans}
   '4':
   - ESCAPE
-  - {t: '1', h: F1}
-  - {t: '2', h: F2}
-  - {t: '3', h: F3}
-  - {t: '4', h: F4}
-  - {t: '5', h: F5}
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
   - '&mkp RCLK'
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
@@ -261,7 +261,7 @@ layers:
   - O
   - '&mkp MB4'
   - LEFT GUI
-  - {t: LEFT SHIFT, h: raise}
+  - LEFT SHIFT
   - A
   - S
   - D
@@ -285,7 +285,7 @@ layers:
   - DOWN
   - {t: RIGHT, h: sticky}
   - UP ARROW
-  - {t: NEXT, h: PREVIOUS}
+  - {t: NEXT, h: raise}
   - LEFT GUI
   - {t: Alt+ESCAPE, h: LEFT GUI}
   - SPACE
@@ -298,3 +298,7 @@ layers:
 combos:
 - p: [0, 52, 53, 11]
   k: '&bootloader'
+- p: [48, 57]
+  k: {t: '4', h: toggle}
+- p: [48, 57]
+  k: {t: default, h: toggle}
