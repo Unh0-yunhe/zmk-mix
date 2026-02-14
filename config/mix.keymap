@@ -73,11 +73,11 @@
 
         raise_layer {
             bindings = <
-&kp GRAVE  &kp F1           &kp F2             &kp F3                    &kp F4            &kp F5            &kp F6              &kp F7               &kp F8                  &kp F9          &kp F10                  &kp F11
-&trans     &kp C_BRI_DEC    &kp C_VOLUME_UP    &kp LS(C_BRIGHTNESS_INC)  &kp PAGE_UP       &kp LEFT_BRACKET  &kp LS(LC(HOME))    &kp LC(HOME)         &kp LS(LC(LEFT_ARROW))  &kp UP_ARROW    &kp LS(LC(RIGHT_ARROW))  &kp F12
-&trans     &kp C_PREVIOUS   &kp C_VOLUME_DOWN  &kp C_NEXT                &kp PAGE_DOWN     &kp LEFT_BRACE    &kp LC(LS(END))     &kp LC(END)          &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &trans
-&trans     &kp LC(PAGE_UP)  &kp C_MUTE         &kp LC(PAGE_DOWN)         &trans            &trans            &sk LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LC(LS(UP_ARROW))    &kp INS         &kp LC(LS(DOWN_ARROW))   &trans
-&trans     &trans                              &kp LS(LA(LC(A)))         &kp C_PLAY_PAUSE  &trans            &kp PAGE_UP         &kp PAGE_DOWN        &mt HOME END                            &trans                   &trans
+&kp GRAVE  &kp F1           &kp F2             &kp F3                    &kp F4            &kp F5            &kp F6              &kp F7               &kp F8                         &kp F9          &kp F10                          &kp F11
+&trans     &kp C_BRI_DEC    &kp C_VOLUME_UP    &kp LS(C_BRIGHTNESS_INC)  &kp PAGE_UP       &kp LEFT_BRACKET  &kp LS(LC(HOME))    &kp LC(HOME)         &kp LS(LC(LEFT_ARROW))         &kp UP_ARROW    &kp LS(LC(RIGHT_ARROW))          &kp F12
+&trans     &kp C_PREVIOUS   &kp C_VOLUME_DOWN  &kp C_NEXT                &kp PAGE_DOWN     &kp LEFT_BRACE    &kp LC(LS(END))     &kp LC(END)          &mt LC(LEFT_ARROW) LEFT_ARROW  &kp DOWN_ARROW  &mt LC(RIGHT_ARROW) RIGHT_ARROW  &trans
+&trans     &kp LC(PAGE_UP)  &kp C_MUTE         &kp LC(PAGE_DOWN)         &trans            &trans            &sk LC(LEFT_ARROW)  &kp LC(RIGHT_ARROW)  &kp LC(LS(UP_ARROW))           &kp INS         &kp LC(LS(DOWN_ARROW))           &trans
+&trans     &trans                              &kp LS(LA(LC(A)))         &kp C_PLAY_PAUSE  &trans            &kp PAGE_UP         &kp PAGE_DOWN        &mt HOME END                                   &trans                           &trans
             >;
 
             sensor-bindings =
