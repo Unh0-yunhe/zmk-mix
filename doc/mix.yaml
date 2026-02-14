@@ -57,8 +57,8 @@ layers:
   - BACKSPACE
   - {t: ;, h: lower}
   - {t: Ctl+Z, h: LEFT ALT}
+  - Meh+A
   - {t: '4', h: toggle}
-  - Ctl+Z
   lower:
   - '`'
   - F1
@@ -161,11 +161,11 @@ layers:
   - Ctl+PAGE DOWN
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Sft+Ctl+LEFT ARROW
-  - Ctl+LEFT
+  - {t: Ctl+LEFT ARROW, h: sticky}
+  - Ctl+RIGHT ARROW
+  - Ctl+Sft+UP ARROW
   - INS
-  - Ctl+RIGHT
+  - Ctl+Sft+DOWN ARROW
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -248,7 +248,7 @@ layers:
   - '&msc SCRL_DOWN'
   - '&mkp MCLK'
   - '&mkp MB5'
-  - ESCAPE
+  - {t: ESCAPE, h: LEFT WIN}
   - TAB
   - Q
   - W
@@ -260,7 +260,7 @@ layers:
   - I
   - O
   - '&mkp MB4'
-  - LEFT GUI
+  - LCTRL
   - LEFT SHIFT
   - A
   - S
@@ -294,7 +294,7 @@ layers:
   - {t: ;, h: lower}
   - BACKSPACE
   - {t: default, h: toggle}
-  - LEFT CONTROL
+  - {t: default, h: toggle}
 combos:
 - p: [0, 52, 53, 11]
   k: '&bootloader'
