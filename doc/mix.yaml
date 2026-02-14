@@ -151,9 +151,9 @@ layers:
   - '{'
   - Ctl+Sft+END
   - Ctl+END
-  - LEFT ARROW
+  - {t: LEFT ARROW, h: Ctl+LEFT ARROW}
   - DOWN ARROW
-  - RIGHT ARROW
+  - {t: RIGHT ARROW, h: Ctl+RIGHT ARROW}
   - {type: held}
   - {t: ▽, type: trans}
   - Ctl+PAGE UP
