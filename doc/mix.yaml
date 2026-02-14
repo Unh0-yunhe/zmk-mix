@@ -137,7 +137,7 @@ layers:
   - Sft+BRIGHTNESS INC
   - PAGE UP
   - '['
-  - Sft+Ctl+END
+  - Sft+Ctl+HOME
   - Ctl+HOME
   - Sft+Ctl+LEFT ARROW
   - UP ARROW
