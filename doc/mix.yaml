@@ -51,16 +51,16 @@ layers:
   - RSHFT
   - LCTRL
   - MUTE
-  - SPACE
+  - LEFT ALT
   - LGUI
   - layer 1
   - SPACE
-  - SPACE
-  - layer 2
-  - RALT
-  - SPACE
-  - {t: SPACE, h: Buleth}
   - ENTER
+  - layer 2
+  - LEFT WIN
+  - RIGHT ALT
+  - {t: SPACE, h: Buleth}
+  - RCTRL
   layer 1:
   - F12
   - F1
