@@ -25,7 +25,7 @@
         encoder_sc: encoder_sc {
             compatible = "zmk,behavior-sensor-rotate-var";
             label = "ENCODER_SC";
-            #sensor-binding-cells = <0>;
+            #sensor-binding-cells = <2>;
             bindings = <&msc>, <&msc>;
 
             tap-ms = <10>;
