@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: mix}
 layers:
-  default:
+  Defualt:
   - ESCAPE
   - '1'
   - '2'
@@ -51,15 +51,17 @@ layers:
   - RSHFT
   - LCTRL
   - MUTE
+  - LEFT ALT
   - LGUI
-  - lower
+  - layer 1
   - SPACE
-  - SPACE
-  - raise
-  - RALT
-  - {t: SPACE, h: '3'}
   - ENTER
-  lower:
+  - layer 2
+  - LEFT WIN
+  - RIGHT ALT
+  - {t: SPACE, h: Buleth}
+  - RCTRL
+  layer 1:
   - F12
   - F1
   - F2
@@ -111,6 +113,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -118,7 +121,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  raise:
+  - {t: ▽, type: trans}
+  layer 2:
   - {t: ▽, type: trans}
   - '!'
   - '@'
@@ -173,11 +177,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '3':
+  - {t: ▽, type: trans}
+  Buleth:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -234,8 +240,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
 combos:
-- p: [0, 52, 53, 11]
+- p: [0, 11, 54, 53]
   k: '&bootloader'
