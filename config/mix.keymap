@@ -116,11 +116,11 @@
 
         layer_5 {
             bindings = <
-&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp NUMBER_4  &kp NUMBER_5  &mkp RCLK  &msc SCRL_UP  &msc SCRL_DOWN  &kp             &kp              &kp
-&kp TAB           &kp Q         &kp W         &kp E                &kp R         &kp T         &kp Y      &kp U         &kp I           &kp O           &kp              &kp
+&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp NUMBER_4  &kp NUMBER_5  &mkp RCLK  &msc SCRL_UP  &msc SCRL_DOWN  &trans          &trans           &trans
+&kp TAB           &kp Q         &kp W         &kp E                &kp R         &kp T         &kp Y      &kp U         &kp I           &kp O           &trans           &trans
 &kp LSHFT         &kp A         &kp S         &kp D                &kp F         &kp G         &kp H      &kp J         &kp K           &kp L           &kp P            &kp ENTER
 &kp LEFT_CONTROL  &kp Z         &kp X         &kp A                &kp V         &kp B         &kp N      &kp M         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp UP_ARROW
-&lt 5 C_NEXT      &kp           &kp           &mt LWIN LA(ESCAPE)  &kp SPACE     &kp           &mkp LCLK  &lt 1 SEMI    &kp BACKSPACE   &kp             &kp              &kp
+&lt 5 C_NEXT      &trans        &trans        &mt LWIN LA(ESCAPE)  &kp SPACE     &trans        &mkp LCLK  &lt 1 SEMI    &kp BACKSPACE   &trans          &trans           &trans
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
