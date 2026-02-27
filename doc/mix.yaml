@@ -315,9 +315,9 @@ layers:
   - '&mkp RCLK'
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - TAB
   - Q
   - W
@@ -328,8 +328,8 @@ layers:
   - U
   - I
   - O
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - LSHFT
   - A
   - S
@@ -355,17 +355,17 @@ layers:
   - RIGHT ARROW
   - UP ARROW
   - {t: NEXT, h: '5'}
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: Alt+ESCAPE, h: LWIN}
   - SPACE
-  - ''
+  - {t: ▽, type: trans}
   - '&mkp LCLK'
   - {t: ;, h: layer 1}
   - BACKSPACE
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
 combos:
 - p: [0, 11, 54, 53]
   k: '&bootloader'
