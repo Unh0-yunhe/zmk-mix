@@ -330,7 +330,7 @@ layers:
   - O
   - '&mkp MB4'
   - LCTRL
-  - {t: LSHFT, h: music}
+  - LEFT SHIFT
   - A
   - S
   - D
@@ -359,7 +359,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: Alt+ESCAPE, h: LWIN}
   - SPACE
-  - Ctl+Alt+TAB
+  - {t: Alt+Ctl+TAB, h: music}
   - '&mkp LCLK'
   - {t: ;, h: layer 1}
   - BACKSPACE
