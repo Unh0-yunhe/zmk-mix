@@ -53,7 +53,7 @@ layers:
   - PP
   - LEFT ALT
   - LGUI
-  - layer 1
+  - SPACE
   - {t: Ctl+Alt+TAB, h: layer 2}
   - BACKSPACE
   - {t: ;, h: layer 1}
@@ -114,10 +114,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Meh+A
-  - {t: PP, type: held}
+  - PP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
