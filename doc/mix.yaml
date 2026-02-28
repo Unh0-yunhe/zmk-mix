@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - DELETE
-  - TAB
+  - {t: TAB, h: CAPS}
   - Q
   - W
   - E
@@ -49,7 +49,7 @@ layers:
   - .
   - {t: '"', h: ''''}
   - RSHFT
-  - {t: Sft+Gui+S, h: '4'}
+  - {t: Sft+Gui+S, h: music}
   - PP
   - LEFT ALT
   - LGUI
@@ -59,7 +59,7 @@ layers:
   - {t: ;, h: layer 1}
   - {t: Ctl+Z, h: LEFT ALT}
   - RIGHT ALT
-  - {t: '5', h: toggle}
+  - {t: game, h: toggle}
   - '&start'
   layer 1:
   - '`'
@@ -208,7 +208,7 @@ layers:
   - Ctl+Sft+RIGHT ARROW
   - Ctl+Sft+END
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LEFT SHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -220,7 +220,7 @@ layers:
   - RIGHT ARROW
   - Ctl+Sft+END
   - {type: held}
-  - {t: ▽, type: trans}
+  - LCTRL
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -244,13 +244,13 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  '4':
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  music:
+  - '`'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
   - ''
   - ''
   - ''
@@ -296,6 +296,8 @@ layers:
   - {type: held}
   - ''
   - ''
+  - Meh+A
+  - PP
   - ''
   - ''
   - ''
@@ -303,9 +305,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
-  - ''
-  '5':
+  game:
   - ESCAPE
   - '1'
   - '2'
@@ -315,9 +315,9 @@ layers:
   - '&mkp RCLK'
   - '&msc SCRL_UP'
   - '&msc SCRL_DOWN'
+  - '&mkp MCLK'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: ESCAPE, h: LWIN}
   - TAB
   - Q
   - W
@@ -329,8 +329,8 @@ layers:
   - I
   - O
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LSHFT
+  - LCTRL
+  - {t: LSHFT, h: music}
   - A
   - S
   - D
@@ -345,7 +345,7 @@ layers:
   - LEFT CONTROL
   - Z
   - X
-  - A
+  - C
   - V
   - B
   - N
@@ -354,18 +354,18 @@ layers:
   - DOWN ARROW
   - RIGHT ARROW
   - UP ARROW
-  - {t: NEXT, h: '5'}
-  - {t: ▽, type: trans}
+  - {t: NEXT, h: PREVIOUS}
+  - PP
   - {t: ▽, type: trans}
   - {t: Alt+ESCAPE, h: LWIN}
   - SPACE
-  - {t: ▽, type: trans}
+  - Ctl+Alt+TAB
   - '&mkp LCLK'
   - {t: ;, h: layer 1}
   - BACKSPACE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: Defualt, h: toggle}
+  - LCTRL
 combos:
 - p: [0, 11, 54, 53]
   k: '&bootloader'
