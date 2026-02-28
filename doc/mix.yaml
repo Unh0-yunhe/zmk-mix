@@ -54,7 +54,7 @@ layers:
   - LEFT ALT
   - LGUI
   - SPACE
-  - {t: Ctl+Alt+TAB, h: layer 2}
+  - {t: Ctl+Alt+TAB, h: Buleth}
   - BACKSPACE
   - {t: ;, h: layer 1}
   - {t: Ctl+Z, h: LEFT ALT}
@@ -176,7 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - LEFT ARROW
   - RIGHT ARROW
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
