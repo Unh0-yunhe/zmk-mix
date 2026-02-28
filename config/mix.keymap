@@ -48,7 +48,7 @@
             display-name = "Defualt";
             bindings = <
 &kp ESCAPE       &kp N1    &kp N2        &kp N3    &kp NUMBER_4  &kp N5             &kp NUMBER_6   &kp N7      &kp N8              &kp N9         &kp N0                          &kp DELETE
-&kp TAB          &kp Q     &kp W         &kp E     &kp R         &kp T              &kp Y          &kp U       &kp I               &kp O          &kp SLASH                       &kp NON_US_BACKSLASH
+&mt CAPS TAB     &kp Q     &kp W         &kp E     &kp R         &kp T              &kp Y          &kp U       &kp I               &kp O          &kp SLASH                       &kp NON_US_BACKSLASH
 &kp LSHFT        &kp A     &kp S         &kp D     &kp F         &kp G              &kp H          &kp J       &kp K               &kp L          &kp P                           &lt 3 ENTER
 &kp LCTRL        &kp Z     &kp X         &kp C     &kp V         &kp B              &kp N          &kp M       &kp COMMA           &kp DOT        &mt SINGLE_QUOTE DOUBLE_QUOTES  &kp RSHFT
 &lt 4 LS(LG(S))  &kp C_PP  &kp LEFT_ALT  &kp LGUI  &mo 1         &lt 3 LC(LA(TAB))  &kp BACKSPACE  &lt 1 SEMI  &mt LEFT_ALT LC(Z)  &kp RIGHT_ALT  &tog 5                          &start
@@ -87,14 +87,14 @@
                 <&inc_dec_kp UP_ARROW DOWN_ARROW>;
         };
 
-        LAYER2 {
+        edit {
             display-name = "layer 2";
             bindings = <
-&trans  &trans  &trans  &trans     &trans     &trans     &trans              &trans                  &trans          &trans                   &trans               &trans
-&trans  &trans  &trans  &trans     &trans     &trans     &kp LC(HOME)        &kp LC(LS(LEFT_ARROW))  &kp UP_ARROW    &kp LC(LS(RIGHT_ARROW))  &kp LC(LS(END))      &trans
-&trans  &trans  &trans  &trans     &trans     &trans     &kp LC(END)         &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp LC(LS(END))      &trans
-&trans  &trans  &trans  &trans     &trans     &trans     &kp LC(LEFT_ARROW)  &kp LC(LS(UP_ARROW))    &kp LC(A)       &kp LS(LC(DOWN_ARROW))   &kp LC(RIGHT_ARROW)  &trans
-&trans  &trans  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp PG_UP           &kp PAGE_DOWN           &mt HOME END    &trans                   &trans               &trans
+&trans          &trans  &trans  &trans     &trans     &trans     &trans              &trans                  &trans          &trans                   &trans               &trans
+&trans          &trans  &trans  &trans     &trans     &trans     &kp LC(HOME)        &kp LC(LS(LEFT_ARROW))  &kp UP_ARROW    &kp LC(LS(RIGHT_ARROW))  &kp LC(LS(END))      &trans
+&kp LEFT_SHIFT  &trans  &trans  &trans     &trans     &trans     &kp LC(END)         &kp LEFT_ARROW          &kp DOWN_ARROW  &kp RIGHT_ARROW          &kp LC(LS(END))      &trans
+&kp LCTRL       &trans  &trans  &trans     &trans     &trans     &kp LC(LEFT_ARROW)  &kp LC(LS(UP_ARROW))    &kp LC(A)       &kp LS(LC(DOWN_ARROW))   &kp LC(RIGHT_ARROW)  &trans
+&trans          &trans  &trans  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp PG_UP           &kp PAGE_DOWN           &mt HOME END    &trans                   &trans               &trans
             >;
 
             sensor-bindings =
@@ -102,28 +102,30 @@
                 <&inc_dec_kp UP_ARROW DOWN>;
         };
 
-        layer_4 {
+        music {
             bindings = <
-&none  &none                 &none            &none          &none  &none  &none  &none  &none  &none  &none  &none
-&none  &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_UP  &kp C_BRI_INC  &none  &none  &none  &none  &none  &none  &none  &none
-&none  &kp C_PREVIOUS        &kp C_VOL_DN     &kp C_NEXT     &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none                 &none            &none          &none  &none  &none  &none  &none  &none  &none  &none
-&none  &none                 &none            &none          &none  &none  &none  &none  &none  &none  &none  &none
+&kp GRAVE  &kp F1                &kp F2           &kp F3             &kp F4    &kp F5  &none  &none  &none  &none  &none  &none
+&none      &kp C_BRIGHTNESS_DEC  &kp C_VOLUME_UP  &kp C_BRI_INC      &none     &none   &none  &none  &none  &none  &none  &none
+&none      &kp C_PREVIOUS        &kp C_VOL_DN     &kp C_NEXT         &none     &none   &none  &none  &none  &none  &none  &none
+&none      &none                 &none            &none              &none     &none   &none  &none  &none  &none  &none  &none
+&none      &none                 &none            &kp LC(LS(LA(A)))  &kp C_PP  &none   &none  &none  &none  &none  &none  &none
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
         };
 
-        layer_5 {
+        game {
             bindings = <
-&kp ESCAPE        &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp NUMBER_4  &kp NUMBER_5  &mkp RCLK  &msc SCRL_UP  &msc SCRL_DOWN  &trans          &trans           &trans
-&kp TAB           &kp Q         &kp W         &kp E                &kp R         &kp T         &kp Y      &kp U         &kp I           &kp O           &trans           &trans
-&kp LSHFT         &kp A         &kp S         &kp D                &kp F         &kp G         &kp H      &kp J         &kp K           &kp L           &kp P            &kp ENTER
-&kp LEFT_CONTROL  &kp Z         &kp X         &kp A                &kp V         &kp B         &kp N      &kp M         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp UP_ARROW
-&lt 5 C_NEXT      &trans        &trans        &mt LWIN LA(ESCAPE)  &kp SPACE     &trans        &mkp LCLK  &lt 1 SEMI    &kp BACKSPACE   &trans          &trans           &trans
+&kp ESCAPE             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp NUMBER_4  &kp NUMBER_5     &mkp RCLK  &msc SCRL_UP  &msc SCRL_DOWN  &mkp MCLK       &trans           &mt LWIN ESCAPE
+&kp TAB                &kp Q         &kp W         &kp E                &kp R         &kp T            &kp Y      &kp U         &kp I           &kp O           &trans           &kp LCTRL
+&lt 4 LSHFT            &kp A         &kp S         &kp D                &kp F         &kp G            &kp H      &kp J         &kp K           &kp L           &kp P            &kp ENTER
+&kp LEFT_CONTROL       &kp Z         &kp X         &kp C                &kp V         &kp B            &kp N      &kp M         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp UP_ARROW
+&mt C_PREVIOUS C_NEXT  &kp C_PP      &trans        &mt LWIN LA(ESCAPE)  &kp SPACE     &kp LC(LA(TAB))  &mkp LCLK  &lt 1 SEMI    &kp BACKSPACE   &trans          &to 0            &kp LCTRL
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
+                <&inc_dec_kp C_PREVIOUS C_NEXT>;
         };
     };
 };
