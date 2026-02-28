@@ -51,7 +51,7 @@
 &mt CAPS TAB     &kp Q     &kp W         &kp E     &kp R         &kp T              &kp Y          &kp U       &kp I               &kp O          &kp SLASH                       &kp NON_US_BACKSLASH
 &kp LSHFT        &kp A     &kp S         &kp D     &kp F         &kp G              &kp H          &kp J       &kp K               &kp L          &kp P                           &lt 3 ENTER
 &kp LCTRL        &kp Z     &kp X         &kp C     &kp V         &kp B              &kp N          &kp M       &kp COMMA           &kp DOT        &mt SINGLE_QUOTE DOUBLE_QUOTES  &kp RSHFT
-&lt 4 LS(LG(S))  &kp C_PP  &kp LEFT_ALT  &kp LGUI  &mo 1         &lt 3 LC(LA(TAB))  &kp BACKSPACE  &lt 1 SEMI  &mt LEFT_ALT LC(Z)  &kp RIGHT_ALT  &tog 5                          &start
+&lt 4 LS(LG(S))  &kp C_PP  &kp LEFT_ALT  &kp LGUI  &kp SPACE     &lt 3 LC(LA(TAB))  &kp BACKSPACE  &lt 1 SEMI  &mt LEFT_ALT LC(Z)  &kp RIGHT_ALT  &tog 5                          &start
             >;
 
             sensor-bindings =
