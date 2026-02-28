@@ -313,8 +313,8 @@ layers:
   - '4'
   - '5'
   - '&mkp RCLK'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_DOWN'
+  - '&mkp MB5'
+  - '&mkp MB4'
   - '&mkp MCLK'
   - '&mkp MB5'
   - {t: ESCAPE, h: LWIN}
