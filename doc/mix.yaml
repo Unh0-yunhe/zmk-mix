@@ -140,7 +140,7 @@ layers:
   - '&mkp MB4'
   - '&mmv MOVE_Y(-600)'
   - '&mkp MB5'
-  - '&msc MOVE_Y(20)'
+  - '&msc MOVE_Y(-20)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -152,7 +152,7 @@ layers:
   - '&mmv MOVE_X(-600)'
   - '&mmv MOVE_Y(600)'
   - '&mmv MOVE_X(600)'
-  - '&msc MOVE_Y(-20)'
+  - '&msc MOVE_Y(20)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
