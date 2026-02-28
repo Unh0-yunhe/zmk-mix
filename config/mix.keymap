@@ -76,8 +76,8 @@
             display-name = "Buleth";
             bindings = <
 &kp ESCAPE    &kp F1     &kp F2             &kp F3             &kp F4            &kp F5            &kp F6  &kp F7  &kp F8  &kp F9  &kp F10  &kp F11
-&bt BT_SEL 0  &mkp MCLK  &mkp MB4           &mmv MOVE_Y(-600)  &mkp MB5          &msc MOVE_Y(-20)  &trans  &trans  &trans  &trans  &trans   &kp F12
-&bt BT_SEL 1  &mkp LCLK  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &msc MOVE_Y(20)   &trans  &trans  &trans  &trans  &trans   &trans
+&bt BT_SEL 0  &mkp MCLK  &mkp MB4           &mmv MOVE_Y(-600)  &mkp MB5          &msc MOVE_Y(20)   &trans  &trans  &trans  &trans  &trans   &kp F12
+&bt BT_SEL 1  &mkp LCLK  &mmv MOVE_X(-600)  &mmv MOVE_Y(600)   &mmv MOVE_X(600)  &msc MOVE_Y(-20)  &trans  &trans  &trans  &trans  &trans   &trans
 &bt BT_SEL 2  &mkp RCLK  &trans             &trans             &trans            &trans            &trans  &trans  &trans  &trans  &trans   &trans
 &bt BT_SEL 3  &trans     &trans             &kp LEFT_ARROW     &kp RIGHT_ARROW   &trans            &trans  &trans  &trans  &trans  &trans   &trans
             >;
@@ -116,8 +116,8 @@
 
         game {
             bindings = <
-&kp ESCAPE             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp NUMBER_4  &kp NUMBER_5     &mkp RCLK  &msc SCRL_UP  &msc SCRL_DOWN  &mkp MCLK       &trans           &mt LWIN ESCAPE
-&kp TAB                &kp Q         &kp W         &kp E                &kp R         &kp T            &kp Y      &kp U         &kp I           &kp O           &trans           &kp LCTRL
+&kp ESCAPE             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp NUMBER_4  &kp NUMBER_5     &mkp RCLK  &msc SCRL_UP  &msc SCRL_DOWN  &mkp MCLK       &mkp MB5         &mt LWIN ESCAPE
+&kp TAB                &kp Q         &kp W         &kp E                &kp R         &kp T            &kp Y      &kp U         &kp I           &kp O           &mkp MB4         &kp LCTRL
 &lt 4 LSHFT            &kp A         &kp S         &kp D                &kp F         &kp G            &kp H      &kp J         &kp K           &kp L           &kp P            &kp ENTER
 &kp LEFT_CONTROL       &kp Z         &kp X         &kp C                &kp V         &kp B            &kp N      &kp M         &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp UP_ARROW
 &mt C_PREVIOUS C_NEXT  &kp C_PP      &trans        &mt LWIN LA(ESCAPE)  &kp SPACE     &kp LC(LA(TAB))  &mkp LCLK  &lt 1 SEMI    &kp BACKSPACE   &trans          &to 0            &kp LCTRL
