@@ -8,7 +8,6 @@
 #include <dt-bindings/zmk/matrix_transform.h>
 #include "mixlayout.dtsi"
 
-#include <dt-bindings/led/led.h>
 
 
 
@@ -78,32 +77,6 @@ RC(4,0) RC(4,1) RC(4,2) RC(4,3) RC(4,4) RC(4,5)  RC(4,6) RC(4,7) RC(4,8) RC(4,9)
 };
 
 
-/ {
-    split_inputs {
-        #address-cells = <1>;
-        #size-cells = <0>;
-
-        glidepoint_split: glidepoint_split@0 {
-            compatible = "zmk,input-split";
-            reg = <0>;
-        };
-    };
-
-    glidepoint_listener: glidepoint_listener {
-        compatible = "zmk,input-listener";
-        status = "disabled";
-        device = <&glidepoint_split>;
-        input-processors = <&zip_xy_scaler 250 100>;
-        scroller {
-            layers = <1 2>;
-            input-processors = <
-                &zip_xy_to_scroll_mapper
-                &zip_scroll_scaler 1 2
-                &zip_scroll_transform INPUT_TRANSFORM_X_INVERT
-            >;
-        };
-    };
-};
 
 &pro_micro_i2c {
     status = "okay";
