@@ -16,6 +16,21 @@
 #include <dt-bindings/zmk/pointing.h>
 
 / {
+    // ====================== 触摸板配置（你要的全在这里）======================
+    pointing_config {
+        compatible = "zmk,pointing-config";
+        
+        // 1. 反转 X 轴
+        invert-x;
+        
+        // 2. 降低鼠标灵敏度（默认 100，越小越慢）
+        cursor-speed = <40>;
+        
+        // 3. 降低滚轮灵敏度（默认 80，越小越慢）
+        scroll-speed = <30>;
+    };
+    // ======================================================================
+
     glidepoint_listener: glidepoint_listener {
         compatible = "zmk,input-listener";
         status = "disabled";
