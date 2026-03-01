@@ -244,67 +244,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  music:
-  - '`'
-  - F1
-  - F2
-  - F3
-  - F4
-  - F5
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - BRIGHTNESS DEC
-  - VOLUME UP
-  - BRI INC
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - PREVIOUS
-  - VOL DN
-  - NEXT
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - {type: held}
-  - ''
-  - ''
-  - Meh+A
-  - PP
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
   game:
   - ESCAPE
   - '1'
@@ -366,6 +305,67 @@ layers:
   - {t: ▽, type: trans}
   - {t: Defualt, h: toggle}
   - LCTRL
+  music:
+  - '`'
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - BRIGHTNESS DEC
+  - VOLUME UP
+  - BRI INC
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - PREVIOUS
+  - VOL DN
+  - NEXT
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - {type: held}
+  - ''
+  - ''
+  - Meh+A
+  - PP
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
 combos:
 - p: [0, 11, 54, 53]
   k: '&bootloader'
