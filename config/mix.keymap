@@ -51,7 +51,7 @@
 &mt CAPS TAB     &kp Q     &kp W         &kp E     &kp R         &kp T              &kp Y          &kp U       &kp I               &kp O          &kp SLASH                       &kp NON_US_BACKSLASH
 &kp LSHFT        &kp A     &kp S         &kp D     &kp F         &kp G              &kp H          &kp J       &kp K               &kp L          &kp P                           &lt 3 ENTER
 &kp LCTRL        &kp Z     &kp X         &kp C     &kp V         &kp B              &kp N          &kp M       &kp COMMA           &kp DOT        &mt SINGLE_QUOTE DOUBLE_QUOTES  &kp RSHFT
-&lt 4 LS(LG(S))  &kp C_PP  &kp LEFT_ALT  &kp LGUI  &kp SPACE     &lt 2 LC(LA(TAB))  &kp BACKSPACE  &lt 1 SEMI  &mt LEFT_ALT LC(Z)  &kp RIGHT_ALT  &tog 5                          &start
+&lt 5 LS(LG(S))  &kp C_PP  &kp LEFT_ALT  &kp LGUI  &kp SPACE     &lt 2 LC(LA(TAB))  &kp BACKSPACE  &lt 1 SEMI  &mt LEFT_ALT LC(Z)  &kp RIGHT_ALT  &tog 4                          &start
             >;
 
             sensor-bindings =
@@ -102,6 +102,20 @@
                 <&inc_dec_kp UP_ARROW DOWN>;
         };
 
+        game {
+            bindings = <
+&kp ESCAPE             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp NUMBER_4  &kp NUMBER_5       &mkp RCLK  &mkp MB5    &mkp MB4        &mkp MCLK       &mkp MB5         &mt LWIN ESCAPE
+&kp TAB                &kp Q         &kp W         &kp E                &kp R         &kp T              &kp Y      &kp U       &kp I           &kp O           &mkp MB4         &kp LCTRL
+&kp LEFT_SHIFT         &kp A         &kp S         &kp D                &kp F         &kp G              &kp H      &kp J       &kp K           &kp L           &kp P            &kp ENTER
+&kp LEFT_CONTROL       &kp Z         &kp X         &kp C                &kp V         &kp B              &kp N      &kp M       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp UP_ARROW
+&mt C_PREVIOUS C_NEXT  &kp C_PP      &trans        &mt LWIN LA(ESCAPE)  &kp SPACE     &lt 5 LA(LC(TAB))  &mkp LCLK  &lt 1 SEMI  &kp BACKSPACE   &trans          &to 0            &kp LCTRL
+            >;
+
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
+                <&encoder_sc SCRL_UP SCRL_DOWN>;
+        };
+
         music {
             bindings = <
 &kp GRAVE  &kp F1                &kp F2           &kp F3             &kp F4    &kp F5  &none  &none  &none  &none  &none  &none
@@ -112,20 +126,6 @@
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
-        };
-
-        game {
-            bindings = <
-&kp ESCAPE             &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3         &kp NUMBER_4  &kp NUMBER_5       &mkp RCLK  &mkp MB5    &mkp MB4        &mkp MCLK       &mkp MB5         &mt LWIN ESCAPE
-&kp TAB                &kp Q         &kp W         &kp E                &kp R         &kp T              &kp Y      &kp U       &kp I           &kp O           &mkp MB4         &kp LCTRL
-&kp LEFT_SHIFT         &kp A         &kp S         &kp D                &kp F         &kp G              &kp H      &kp J       &kp K           &kp L           &kp P            &kp ENTER
-&kp LEFT_CONTROL       &kp Z         &kp X         &kp C                &kp V         &kp B              &kp N      &kp M       &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &kp UP_ARROW
-&mt C_PREVIOUS C_NEXT  &kp C_PP      &trans        &mt LWIN LA(ESCAPE)  &kp SPACE     &lt 4 LA(LC(TAB))  &mkp LCLK  &lt 1 SEMI  &kp BACKSPACE   &trans          &to 0            &kp LCTRL
-            >;
-
-            sensor-bindings =
-                <&inc_dec_kp C_VOLUME_UP C_VOLUME_DOWN>,
-                <&encoder_sc SCRL_UP SCRL_DOWN>;
         };
     };
 };
