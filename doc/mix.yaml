@@ -23,7 +23,7 @@ layers:
   - U
   - I
   - O
-  - /
+  - P
   - \
   - LSHFT
   - A
@@ -35,7 +35,7 @@ layers:
   - J
   - K
   - L
-  - P
+  - ;
   - {t: ENTER, h: layer 2}
   - LCTRL
   - Z
@@ -47,7 +47,7 @@ layers:
   - M
   - ','
   - .
-  - {t: '"', h: ''''}
+  - /
   - RSHFT
   - {t: Sft+Gui+S, h: music}
   - PP
@@ -56,7 +56,7 @@ layers:
   - SPACE
   - {t: Ctl+Alt+TAB, h: Buleth}
   - BACKSPACE
-  - {t: ;, h: layer 1}
+  - {t: SPACE, h: layer 1}
   - {t: Ctl+Z, h: LEFT ALT}
   - RIGHT ALT
   - {t: game, h: toggle}
