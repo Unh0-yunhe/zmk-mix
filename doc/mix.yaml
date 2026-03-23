@@ -61,6 +61,67 @@ layers:
   - RIGHT ALT
   - {t: game, h: toggle}
   - '&start'
+  layer 2:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - CAPS
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+HOME
+  - Ctl+Sft+LEFT ARROW
+  - UP ARROW
+  - Ctl+Sft+RIGHT ARROW
+  - Ctl+Sft+END
+  - {t: ▽, type: trans}
+  - LEFT SHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+END
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - Ctl+Sft+END
+  - {type: held}
+  - LCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+LEFT ARROW
+  - Ctl+Sft+UP ARROW
+  - Ctl+A
+  - Sft+Ctl+DOWN ARROW
+  - Ctl+RIGHT ARROW
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - Ctl+X
+  - Ctl+C
+  - Ctl+V
+  - PG UP
+  - PAGE DOWN
+  - {t: END, h: HOME}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   game:
   - ESCAPE
   - '1'
@@ -241,67 +302,6 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  layer 2:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+HOME
-  - Ctl+Sft+LEFT ARROW
-  - UP ARROW
-  - Ctl+Sft+RIGHT ARROW
-  - Ctl+Sft+END
-  - {t: ▽, type: trans}
-  - LEFT SHIFT
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+END
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - Ctl+Sft+END
-  - {type: held}
-  - LCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+LEFT ARROW
-  - Ctl+Sft+UP ARROW
-  - Ctl+A
-  - Sft+Ctl+DOWN ARROW
-  - Ctl+RIGHT ARROW
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - Ctl+X
-  - Ctl+C
-  - Ctl+V
-  - PG UP
-  - PAGE DOWN
-  - {t: END, h: HOME}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
