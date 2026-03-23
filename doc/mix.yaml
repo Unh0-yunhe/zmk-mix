@@ -23,7 +23,7 @@ layers:
   - U
   - I
   - O
-  - /
+  - ''''
   - \
   - LSHFT
   - A
@@ -47,7 +47,7 @@ layers:
   - M
   - ','
   - .
-  - {t: '"', h: ''''}
+  - /
   - RSHFT
   - {t: Sft+Gui+S, h: music}
   - PP
