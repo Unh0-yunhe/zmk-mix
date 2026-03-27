@@ -127,7 +127,9 @@
 &none      &none                 &none            &kp LC(LS(LA(A)))  &kp C_PP  &none   &none   &none   &none   &none   &none    &none
             >;
 
-            sensor-bindings = <&inc_dec_kp C_VOLUME_UP C_VOL_DN>;
+            sensor-bindings =
+                <&inc_dec_kp C_VOLUME_UP C_VOL_DN>,
+                <&inc_dec_kp C_BRI_INC C_BRIGHTNESS_DEC>;
         };
     };
 };
