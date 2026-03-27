@@ -55,8 +55,8 @@ layers:
   - LGUI
   - SPACE
   - {t: Ctl+Alt+TAB, h: Buleth}
-  - BACKSPACE
   - {t: ;, h: layer 1}
+  - BACKSPACE
   - {t: Ctl+Z, h: LEFT ALT}
   - RIGHT ALT
   - {t: game, h: toggle}
@@ -238,8 +238,8 @@ layers:
   - Meh+A
   - PP
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
