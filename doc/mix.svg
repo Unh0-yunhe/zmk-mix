@@ -357,14 +357,14 @@ path.combo {
 </a></g>
 <g transform="translate(504, 284) rotate(-15.0)" class="key keypos-54">
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key"/>
+<text x="0" y="0" class="key tap">DELETE</text>
+</g>
+<g transform="translate(570, 271) rotate(-8.0)" class="key keypos-55">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">;</text>
 <a href="#layer-1">
 <text x="0" y="24" class="key hold layer-activator">layer 1</text>
 </a></g>
-<g transform="translate(570, 271) rotate(-8.0)" class="key keypos-55">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<text x="0" y="0" class="key tap"><tspan style="font-size: 78%">BACKSPACE</tspan></text>
-</g>
 <g transform="translate(630, 266)" class="key keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 <text x="0" y="0" class="key tap">Ctl+Z</text>
@@ -1205,12 +1205,12 @@ path.combo {
 <rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
 </g>
-<g transform="translate(504, 284) rotate(-15.0)" class="key held keypos-54">
-<rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key held"/>
-</g>
-<g transform="translate(570, 271) rotate(-8.0)" class="key trans keypos-55">
-<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
+<g transform="translate(504, 284) rotate(-15.0)" class="key trans keypos-54">
+<rect rx="6" ry="6" x="-33" y="-26" width="66" height="52" class="key trans"/>
 <text x="0" y="0" class="key trans tap">▽</text>
+</g>
+<g transform="translate(570, 271) rotate(-8.0)" class="key held keypos-55">
+<rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
 </g>
 <g transform="translate(630, 266)" class="key trans keypos-56">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key trans"/>
