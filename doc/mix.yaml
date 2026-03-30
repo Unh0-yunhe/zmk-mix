@@ -55,7 +55,7 @@ layers:
   - LGUI
   - SPACE
   - {t: Ctl+Alt+TAB, h: Buleth}
-  - DELETE
+  - BACKSPACE
   - {t: ;, h: layer 1}
   - {t: Ctl+Z, h: LEFT ALT}
   - RIGHT ALT
