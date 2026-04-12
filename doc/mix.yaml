@@ -56,72 +56,11 @@ layers:
   - SPACE
   - {t: Ctl+Alt+TAB, h: Buleth}
   - BACKSPACE
-  - {t: ;, h: layer 1}
+  - {t: ;, h: Buleth}
   - {t: Ctl+Z, h: LEFT ALT}
   - RIGHT ALT
-  - {t: game, h: toggle}
+  - {t: layer 1, h: toggle}
   - '&start'
-  game:
-  - ESCAPE
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '&mkp RCLK'
-  - '&mkp MB5'
-  - '&mkp MB4'
-  - '&mkp MCLK'
-  - '&mkp MB5'
-  - {t: ESCAPE, h: LWIN}
-  - TAB
-  - Q
-  - W
-  - E
-  - R
-  - T
-  - Y
-  - U
-  - I
-  - O
-  - '&mkp MB4'
-  - LCTRL
-  - LEFT SHIFT
-  - A
-  - S
-  - D
-  - F
-  - G
-  - H
-  - J
-  - K
-  - L
-  - P
-  - ENTER
-  - LEFT CONTROL
-  - Z
-  - X
-  - C
-  - V
-  - B
-  - N
-  - M
-  - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - UP ARROW
-  - {t: NEXT, h: PREVIOUS}
-  - PP
-  - {t: ▽, type: trans}
-  - {t: Alt+ESCAPE, h: LWIN}
-  - SPACE
-  - {t: Alt+Ctl+TAB, h: music}
-  - '&mkp LCLK'
-  - {t: ;, h: layer 1}
-  - BACKSPACE
-  - {t: ▽, type: trans}
-  - {t: Defualt, h: toggle}
-  - LCTRL
   layer 2:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -183,6 +122,67 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  game:
+  - ESCAPE
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '&mkp RCLK'
+  - '&mkp MB5'
+  - '&mkp MB4'
+  - '&mkp MCLK'
+  - '&mkp MB5'
+  - {t: ESCAPE, h: LWIN}
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - '&mkp MB4'
+  - LCTRL
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - P
+  - ENTER
+  - LEFT CONTROL
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - LEFT ARROW
+  - DOWN ARROW
+  - RIGHT ARROW
+  - UP ARROW
+  - {t: NEXT, h: PREVIOUS}
+  - PP
+  - {t: ▽, type: trans}
+  - {t: Alt+ESCAPE, h: LWIN}
+  - SPACE
+  - {t: Alt+Ctl+TAB, h: music}
+  - '&mkp LCLK'
+  - {t: ;, h: Buleth}
+  - BACKSPACE
+  - {t: ▽, type: trans}
+  - {t: Defualt, h: toggle}
+  - LCTRL
   layer 1:
   - '`'
   - F1
@@ -239,7 +239,7 @@ layers:
   - PP
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
