@@ -59,7 +59,7 @@ layers:
   - {t: ;, h: Buleth}
   - {t: Ctl+Z, h: LEFT ALT}
   - RIGHT ALT
-  - {t: Buleth, h: toggle}
+  - {t: game, h: toggle}
   - '&start'
   game:
   - ESCAPE
