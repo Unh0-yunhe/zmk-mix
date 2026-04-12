@@ -13,7 +13,7 @@ layers:
   - '9'
   - '0'
   - DELETE
-  - {t: TAB, h: CAPS}
+  - TAB
   - Q
   - W
   - E
@@ -208,7 +208,7 @@ layers:
   - '3'
   - BACKSPACE
   - F12
-  - {t: ▽, type: trans}
+  - CAPS
   - {t: ▽, type: trans}
   - PREVIOUS
   - VOL DN
