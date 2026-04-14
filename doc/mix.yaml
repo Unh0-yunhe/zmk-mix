@@ -49,7 +49,7 @@ layers:
   - .
   - /
   - RSHFT
-  - {t: Sft+Gui+S, h: music}
+  - {t: CAPS, h: music}
   - PP
   - LEFT ALT
   - LGUI
