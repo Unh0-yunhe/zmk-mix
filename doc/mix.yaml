@@ -283,9 +283,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: BT, h: '2'}
   - '&mkp RCLK'
-  - '&msc MOVE_Y(-20)'
+  - '&msc MOVE_Y(10)'
   - {t: ▽, type: trans}
-  - '&msc MOVE_Y(20)'
+  - '&msc MOVE_Y(-10)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
