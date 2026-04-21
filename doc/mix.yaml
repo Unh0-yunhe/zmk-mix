@@ -174,9 +174,9 @@ layers:
   - {t: NEXT, h: PREVIOUS}
   - PP
   - {t: ▽, type: trans}
-  - {t: Alt+ESCAPE, h: LWIN}
+  - LEFT ALT
   - SPACE
-  - {t: Alt+Ctl+TAB, h: music}
+  - {t: Alt+ESC, h: LEFT WIN}
   - '&mkp LCLK'
   - {t: ;, h: layer 1}
   - BACKSPACE
