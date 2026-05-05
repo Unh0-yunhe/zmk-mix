@@ -49,7 +49,7 @@ layers:
   - .
   - /
   - RSHFT
-  - {t: CAPS, h: music}
+  - LEFT ALT
   - PP
   - LEFT ALT
   - LGUI
@@ -60,7 +60,7 @@ layers:
   - {t: Ctl+Z, h: LEFT ALT}
   - RIGHT ALT
   - {t: game, h: toggle}
-  - '&start'
+  - CAPS
   layer 2:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,7 +176,7 @@ layers:
   - {t: ▽, type: trans}
   - LEFT ALT
   - SPACE
-  - {t: Alt+ESC, h: music}
+  - {t: Alt+Ctl+TAB, h: music}
   - '&mkp LCLK'
   - {t: ;, h: layer 1}
   - BACKSPACE
@@ -243,7 +243,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Alt+F4
+  - '&start'
   Buleth:
   - BT CLR
   - F1
@@ -354,12 +354,12 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - ''
   - ''
   - Meh+A
   - PP
-  - ''
+  - {type: held}
   - ''
   - ''
   - ''
