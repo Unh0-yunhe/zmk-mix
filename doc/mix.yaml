@@ -145,7 +145,7 @@ layers:
   - U
   - I
   - O
-  - '&mkp MB4'
+  - P
   - LCTRL
   - LEFT SHIFT
   - A
@@ -157,7 +157,7 @@ layers:
   - J
   - K
   - L
-  - P
+  - UP ARROW
   - ENTER
   - LEFT CONTROL
   - Z
@@ -167,11 +167,11 @@ layers:
   - B
   - N
   - M
+  - ','
   - LEFT ARROW
-  - DOWN ARROW
-  - RIGHT ARROW
-  - UP ARROW
-  - {t: NEXT, h: PREVIOUS}
+  - DOWN
+  - RIGHT
+  - {t: LEFT WIN, h: music}
   - PP
   - {t: ▽, type: trans}
   - LEFT ALT
@@ -354,12 +354,12 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - ''
   - ''
   - Meh+A
   - PP
-  - {type: held}
+  - ''
   - ''
   - ''
   - ''
