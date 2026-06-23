@@ -259,9 +259,9 @@ layers:
   - F11
   - {t: BT, h: '0'}
   - '&mkp MCLK'
-  - '&mkp MB4'
+  - '&msc MOVE_Y(10)'
   - '&mmv MOVE_Y(-600)'
-  - '&mkp MB5'
+  - '&msc MOVE_Y(-10)'
   - '&msc MOVE_Y(20)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -283,9 +283,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: BT, h: '2'}
   - '&mkp RCLK'
-  - '&msc MOVE_Y(10)'
+  - '&msc MOVE_X(-10)'
   - {t: ▽, type: trans}
-  - '&msc MOVE_Y(-10)'
+  - '&msc MOVE_X(10)'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
