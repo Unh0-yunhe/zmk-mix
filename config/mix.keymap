@@ -91,11 +91,11 @@
         number {
             display-name = "layer 1";
             bindings = <
-&kp GRAVE  &kp F1  &kp F2           &kp F3             &kp F4         &kp F5             &kp F6     &kp F7        &kp F8        &kp F9        &kp F10        &kp F11
-&trans     &trans  &kp LC(LS(TAB))  &kp C_VOLUME_UP    &kp LC(TAB)    &kp LEFT_BRACKET   &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp BACKSPACE  &kp F12
-&kp CAPS   &trans  &kp C_PREVIOUS   &kp C_VOL_DN       &kp C_NEXT     &kp UNDER          &kp PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0   &kp DOT
-&trans     &trans  &kp C_BRI_DN     &kp C_MUTE         &kp C_BRI_INC  &kp RIGHT_BRACKET  &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ENTER      &mt KP_DIVIDE KP_MULTIPLY
-&trans     &trans  &trans           &kp LC(LS(LA(A)))  &kp C_PP       &trans             &trans     &trans        &trans        &trans        &trans         &start
+&kp GRAVE  &kp F1  &kp F2           &kp F3             &kp F4         &kp F5             &kp F6     &kp F7        &kp F8        &kp F9        &kp F10       &kp F11
+&trans     &trans  &kp LC(LS(TAB))  &kp C_VOLUME_UP    &kp LC(TAB)    &kp LEFT_BRACKET   &kp EQUAL  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp PERIOD    &kp F12
+&kp CAPS   &trans  &kp C_PREVIOUS   &kp C_VOL_DN       &kp C_NEXT     &kp UNDER          &kp PLUS   &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp NUMBER_0  &kp K_MENU
+&trans     &trans  &kp C_BRI_DN     &kp C_MUTE         &kp C_BRI_INC  &kp RIGHT_BRACKET  &kp MINUS  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp ENTER     &mt KP_DIVIDE KP_MULTIPLY
+&trans     &trans  &trans           &kp LC(LS(LA(A)))  &kp C_PP       &trans             &trans     &trans        &trans        &trans        &trans        &start
             >;
 
             sensor-bindings =
