@@ -206,7 +206,7 @@ layers:
   - '1'
   - '2'
   - '3'
-  - BACKSPACE
+  - .
   - F12
   - CAPS
   - {t: ▽, type: trans}
@@ -219,7 +219,7 @@ layers:
   - '5'
   - '6'
   - '0'
-  - .
+  - MENU
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BRI DN
